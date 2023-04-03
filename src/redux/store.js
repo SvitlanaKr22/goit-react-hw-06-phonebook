@@ -36,11 +36,3 @@ export const store = configureStore({
 });
 
 export const persistor = persistStore(store);
-//export default store;
-
-// export const store = configureStore({
-//   reducer: {
-//     contacts: contactsReduser,
-//     filter: filterReduser,
-//   },
-// });
